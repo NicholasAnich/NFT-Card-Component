@@ -6,7 +6,11 @@ module.exports = {
         fontFamily: {
             sans: ["Outfit", "sans-serif"],
         },
-        extend: {},
+        extend: {
+            width: {
+                278: "17.375rem",
+            },
+        },
         colors: {
             softBlue: "#8BACD9",
             white: "#FFFFFF",
@@ -18,6 +22,10 @@ module.exports = {
         fontSize: {
             para: "1.125rem",
             title: "1.375rem",
+            pricing: "0.9375rem",
+        },
+        maxWidth: {
+            containerMobile: "20.4375rem",
         },
     },
     plugins: [],
