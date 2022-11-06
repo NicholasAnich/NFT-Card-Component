@@ -22,6 +22,7 @@ module.exports = {
         fontSize: {
             para: "1.125rem",
             title: "1.375rem",
+            pricing: "0.9375rem",
         },
         maxWidth: {
             containerMobile: "20.4375rem",
