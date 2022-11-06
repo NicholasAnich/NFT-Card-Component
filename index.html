@@ -18,16 +18,38 @@
         <link rel="stylesheet" href="/dist/styles.css" />
         <title>NFT preview card component</title>
     </head>
-    <body>
-        <h1 class="text-3xl font-bold bg-blue-600">Hello World!</h1>
-        <button
-            class="text-white px-4 sm:px-8 py-2 sm:py-3 bg-sky-700 hover:bg-sky-800"
+    <body class="box-border bg-mainBg text-para">
+        <main
+            class="flex h-screen flex-col items-center justify-center bg-mainBg"
         >
-            ...
-        </button>
-
-        Equilibrium #3429 Our Equilibrium collection promotes balance and calm.
-        0.041 ETH 3 days left Creation of Jules Wyvern
+            <div class="max-w-sm bg-cardBg">
+                <img
+                    src="./images/image-equilibrium.jpg"
+                    alt="Equilibrium Cube"
+                />
+                <div>
+                    <h1 class="text-title font-semibold text-white">
+                        Equilibrium #3429
+                    </h1>
+                    <p>Our Equilibrium collection promotes balance and calm.</p>
+                    <div>
+                        <div>
+                            <img
+                                src="./images/icon-ethereum.svg"
+                                alt="ethereum icon"
+                            />
+                            <span> 0.041 ETH </span>
+                        </div>
+                        <img src="./images/icon-clock.svg" alt="" />
+                        <span> 3 days left </span>
+                        <div>
+                            <img src="./images/image-avatar.png" alt="" />
+                            <p>Creation of Jules Wyvern</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
     </body>
 </html>
 
