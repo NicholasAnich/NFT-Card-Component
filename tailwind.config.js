@@ -24,8 +24,8 @@ module.exports = {
             title: "1.375rem",
             pricing: "0.9375rem",
         },
-        maxWidth: {
-            containerMobile: "20.4375rem",
+        screens: {
+            desktop: "23.75em",
         },
     },
     plugins: [],
