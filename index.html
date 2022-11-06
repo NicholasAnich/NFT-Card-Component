@@ -1,53 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link
-            rel="icon"
-            type="image/png"
-            sizes="40x40 "
-            href="./images/codeFavicon.png"
-        />
+        <link rel="icon" type="image/png" sizes="40x40" href="./images/codeFavicon.png" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap"
-            rel="stylesheet"
-        />
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet" />
         <link rel="stylesheet" href="/dist/styles.css" />
         <title>NFT preview card component</title>
     </head>
+
     <body class="box-border bg-mainBg text-para">
-        <main
-            class="flex h-screen flex-col items-center justify-center bg-mainBg"
-        >
-            <div class="max-w-sm bg-cardBg">
-                <img
-                    src="./images/image-equilibrium.jpg"
-                    alt="Equilibrium Cube"
-                />
-                <div>
-                    <h1 class="text-title font-semibold text-white">
-                        Equilibrium #3429
-                    </h1>
+        <main class="flex h-screen flex-col items-center justify-center bg-mainBg" >
+
+            <div class="max-w-containerMobile h-[543px] bg-cardBg p-4 rounded-2xl">
+
+                <div class="flex justify-center items-center">
+                    <img src="./images/image-equilibrium.jpg" alt="Equilibrium Cube" class="w-278 rounded-md"/>
+                </div>
+
+                <div class="flex flex-col gap-2">
+                    <h1 class="text-title font-semibold text-white">Equilibrium #3429</h1>
                     <p>Our Equilibrium collection promotes balance and calm.</p>
-                    <div>
-                        <div>
-                            <img
-                                src="./images/icon-ethereum.svg"
-                                alt="ethereum icon"
-                            />
+
+                    <div class="flex justify-between">
+                        <div class="flex items-center gap-2">
+                            <img src="./images/icon-ethereum.svg" alt="ethereum icon"/>
                             <span> 0.041 ETH </span>
                         </div>
-                        <img src="./images/icon-clock.svg" alt="" />
-                        <span> 3 days left </span>
-                        <div>
-                            <img src="./images/image-avatar.png" alt="" />
-                            <p>Creation of Jules Wyvern</p>
+                        <div class="flex items-center gap-2">
+                            <img src="./images/icon-clock.svg" alt="Clock svg" />
+                            <span> 3 days left </span>
+                        </div>
+                    </div>
+                    <span></span>
+                    <div>
+                        <div class="flex items-center gap-4">
+                            <img src="./images/image-avatar.png" alt="Author Jules Wyvern Profile Picture" class="h-8 border-solid border-2 border-white rounded-full"/>
+                            <p>Creation of <span class="text-white">Jules Wyvern</span></p>
                         </div>
                     </div>
                 </div>
+
             </div>
         </main>
     </body>
