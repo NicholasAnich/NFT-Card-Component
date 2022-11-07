@@ -17,11 +17,16 @@
 
             <div class="max-w-[21.875rem] max-h-[37.25rem] bg-cardBg p-6 rounded-[0.9375rem]">
 
-                <div class="flex justify-center items-center mb-6">
-                    <img src="./images/image-equilibrium.jpg" alt="Equilibrium Cube" class="max-w-[17.375rem] rounded-md desktop:max-w-[18.875rem]"/>
+                <div class="relative flex justify-center items-center mb-6">
+                    <div class="absolute flex items-center justify-center group hover:cursor-pointer">
+                        <div class="absolute h-[18.875rem] w-[18.875rem] z-0 opacity-0 bg-cyan group-hover:opacity-50 duration-500">
+                        </div>
+                        <img src="./images/icon-view.svg" alt="" class="z-10 w-12 h-12 opacity-0 group-hover:opacity-100 duration-500">
+                    </div>
+                        <img src="./images/image-equilibrium.jpg" alt="Equilibrium Cube" class="max-w-[17.375rem] rounded-md desktop:max-w-[18.875rem]"/>
                 </div>
 
-                <h1 class="text-title font-semibold text-white mb-3">Equilibrium #3429</h1>
+                <h1 class="text-title font-semibold text-white mb-3 hover:text-cyan hover:cursor-pointer">Equilibrium #3429</h1>
                 <div class="flex flex-col gap-4 text-softBlue font-sans desktop:gap-6">
                     <p class="font-[200] ">Our Equilibrium collection promotes balance and calm.</p>
 
@@ -36,17 +41,15 @@
                             <span class="text-softBlue font-['Outfit'] font-extralight"> 3 days left </span>
                         </div>
                     </div>
-
                     <span class="h-px bg-blueLine"></span>
-
                     <div>
                         <div class="flex items-center gap-4 text-pricing">
-                            <img src="./images/image-avatar.png" alt="Author Jules Wyvern Profile Picture" class="h-8 border-solid border border-white rounded-full block"/>
-                            <p class="font-light">Creation of <span class="text-white">Jules Wyvern</span></p>
+                            <img src="./images/image-avatar.png" alt="Author Jules Wyvern Profile Picture" class="h-8 border-solid border border-white rounded-full block "/>
+                            <p class="font-light">Creation of <span class="text-white hover:text-cyan hover:cursor-pointer" >Jules Wyvern</span></p>
                         </div>
                     </div>
-
                 </div>
+
 
             </div>
         </main>

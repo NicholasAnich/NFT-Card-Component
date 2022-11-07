@@ -10,6 +10,9 @@ module.exports = {
             width: {
                 278: "17.375rem",
             },
+            backgroundImage: {
+                eyeOverlay: "url('/images/icon-view.svg')",
+            },
         },
         colors: {
             softBlue: "#8BACD9",
@@ -23,6 +26,9 @@ module.exports = {
             para: "1.125rem",
             title: "1.375rem",
             pricing: "0.9375rem",
+        },
+        maxWidth: {
+            containerMobile: "20.4375rem",
         },
         screens: {
             desktop: "23.75em",
