@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,41 +12,45 @@
     </head>
 
     <body class="box-border bg-mainBg text-para">
-        <main class="flex h-screen flex-col items-center justify-center bg-mainBg" >
-
-            <div class="max-w-containerMobile max-h-[596px] bg-cardBg p-6 rounded-2xl">
-
-                <div class="flex justify-center items-center mb-6">
-                    <img src="./images/image-equilibrium.jpg" alt="Equilibrium Cube" class="w-278 rounded-md"/>
+        <main class="mx-6 flex h-screen flex-col items-center justify-center bg-mainBg">
+            <div class="max-h-[37.25rem] max-w-[21.875rem] rounded-[0.9375rem] bg-cardBg p-6">
+                <div class="relative mb-6 flex items-center justify-center">
+                    <div class="group absolute flex items-center justify-center desktop:hover:cursor-pointer">
+                        <div class="absolute z-0 h-[18.875rem] w-[18.875rem] bg-cyan opacity-0 duration-500 desktop:group-hover:opacity-50"></div>
+                        <img src="./images/icon-view.svg" alt="" class="z-10 h-12 w-12 opacity-0 duration-500 desktop:group-hover:opacity-100" />
+                    </div>
+                    <img src="./images/image-equilibrium.jpg" alt="Equilibrium Cube" class="max-w-[17.375rem] rounded-md desktop:max-w-[18.875rem]" />
                 </div>
 
-                <h1 class="text-title font-semibold text-white mb-3">Equilibrium #3429</h1>
-                <div class="flex flex-col gap-4 text-softBlue font-sans">
-                    <p class="font-[200] ">Our Equilibrium collection promotes balance and calm.</p>
+                <h1 class="mb-3 text-title font-semibold text-white desktop:hover:cursor-pointer desktop:hover:text-cyan">Equilibrium #3429</h1>
+                <div class="flex flex-col gap-4 font-sans text-softBlue desktop:gap-6">
+                    <p class="font-[200]">Our Equilibrium collection promotes balance and calm.</p>
 
                     <div class="flex justify-between text-pricing">
                         <div class="flex items-center gap-2">
-                            <img src="./images/icon-ethereum.svg" alt="ethereum icon"/>
+                            <img src="./images/icon-ethereum.svg" alt="ethereum icon" />
                             <span class="text-cyan"> 0.041 ETH </span>
                         </div>
 
                         <div class="flex items-center gap-2">
                             <img src="./images/icon-clock.svg" alt="Clock svg" />
-                            <span class="text-softBlue font-['Outfit'] font-extralight"> 3 days left </span>
+                            <span class="font-['Outfit'] font-extralight text-softBlue"> 3 days left </span>
                         </div>
                     </div>
-
-                    <span class="h-px bg-blueLine"></span>
-
-                    <div>
-                        <div class="flex items-center gap-4 text-pricing">
-                            <img src="./images/image-avatar.png" alt="Author Jules Wyvern Profile Picture" class="h-8 border-solid border border-white rounded-full block"/>
-                            <p class="font-light">Creation of <span class="text-white">Jules Wyvern</span></p>
-                        </div>
-                    </div>
-
+                    <span class="mb-4 h-px bg-blueLine"></span>
                 </div>
 
+                <div class="flex items-center gap-4 text-pricing text-softBlue">
+                    <img
+                        src="./images/image-avatar.png"
+                        alt="Author Jules Wyvern Profile Picture"
+                        class="block h-8 rounded-full border border-solid border-white"
+                    />
+                    <p class="font-light">
+                        Creation of
+                        <span class="text-white desktop:hover:cursor-pointer desktop:hover:text-cyan">Jules Wyvern</span>
+                    </p>
+                </div>
             </div>
         </main>
     </body>
